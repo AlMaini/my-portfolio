@@ -5,6 +5,16 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      title: 'C++ Neural Network',
+      period: 'May 2025',
+      description: 'A C++ implementation of a neural network with backpropagation, designed to classify clothing items from the FashionMNIST dataset. The project includes no third-party libraries, showcasing my understanding of neural networks and C++ programming.',
+      technologies: ['C++', 'Neural Networks', 'Machine Learning'],
+      links: {
+        demo: 'https://github.com/AlMaini/cpp-neural-network/',
+        github: 'https://github.com/AlMaini/cpp-neural-network/'
+      }
+    },
+    {
       title: 'Chop Chop',
       period: 'March 2025 - Present',
       description: 'A meal-planning app built for lazy people to explore new foods easily, built using NextJS and deployed on Vercel (WIP)',
@@ -16,7 +26,7 @@ const Projects = () => {
     },
     {
       title: 'Academic Planner Full Stack Web Application',
-      period: 'January 2025 - Present',
+      period: 'January 2025 - April 2025',
       description: 'Managed and collaborated with a team of 7 using Jira for agile project management, building an intuitive and aesthetic frontend using ReactJS and NextJS. Designed and implemented scalable microservices architecture for academic planning features.',
       technologies: ['ReactJS', 'NextJS', 'NodeJS', 'Docker', 'PostgreSQL', 'Prisma'],
       links: {
