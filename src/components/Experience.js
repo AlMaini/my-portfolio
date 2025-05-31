@@ -32,7 +32,25 @@ const Experience = () => {
             </div>
           </div>
         </div>
+
+        <div className="experience-item">
+          <div className="experience-header">
+            <h3 className="job-title">MLops Developer Intern</h3>
+            <h4 className="company">Modiface L'Oréal</h4>
+            <p className="period">May 2025 - Present</p>
+          </div>
+          
+          <div className="experience-body">
+            <ul className="responsibilities">
+              <li>Model Deployment: Developed and deployed machine learning models for real-time image processing, enhancing user experience in beauty applications.</li>
+              <li>Collaboration: Worked closely with cross-functional teams to integrate ML solutions into production systems, ensuring scalability and reliability.</li>
+              <li>Diffusion Model: Implemented a complete end-to-end ML pipeline utilising diffusion models.</li>
+              <li>Technical Skills: Proficient in Docker, Kubernetes, and cloud platforms (AWS, GCP) for model deployment and management.</li>        
+            </ul>
+          </div>
+        </div>
       </div>
+      
     </section>
   );
 };
