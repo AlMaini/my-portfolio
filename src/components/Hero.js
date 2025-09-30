@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <p className="intro-text">Hello, I'm</p>
           <h1 className="name">Abdullah Al Maini</h1>
-          <p className="title">Software Developer and Machine Learning Engineer</p>
+          <p className="title">Software Engineer and Machine Learning Engineer</p>
           
           <div className="cta-buttons">
             <button className="btn primary-btn" onClick={() => window.open('./assets/resume.pdf')}>
