@@ -12,9 +12,50 @@ const Experience = () => {
       <div className="experience-container">
         <div className="experience-item">
           <div className="experience-header">
-            <h3 className="job-title">Machine Learning Engineer Intern</h3>
-            <h4 className="company">AIP Labs</h4>
-            <p className="period">June 2024 - September 2024</p>
+            <div className="experience-info">
+              <h3 className="job-title">Quantitative Developer Intern</h3>
+              <h4 className="company">Squarepoint Capital</h4>
+              <p className="period">May 2026 - August 2026</p>
+            </div>
+            <img src="./assets/squarepoint-capital-logo.svg" alt="Squarepoint Capital Logo" className="company-logo" />
+          </div>
+          
+          <div className="experience-body">
+            <ul className="responsibilities">
+             <li> Coming soon</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="experience-item">
+          <div className="experience-header">
+            <div className="experience-info">
+              <h3 className="job-title">Software Engineering Intern</h3>
+              <h4 className="company">L'Oréal</h4>
+              <p className="period">May 2025 - May 2026</p>
+            </div>
+            <img src="./assets/loreal-logo.svg" alt="L'Oréal Logo" className="company-logo" />
+          </div>
+          
+          <div className="experience-body">
+            <ul className="responsibilities">
+              <li>Engineered production-scale generative AI hair virtual try-on system using Stable Diffusion models with LoRA adapters for hair style customization and inpainting techniques, serving beauty recommendation features to millions of users across L'Oréal's digital ecosystem.</li>
+              <li>Architected distributed ML inference pipelines with microservices architecture, reducing model serving latency by 40% through optimized preprocessing, batching, and caching strategies.</li>
+              <li>Designed and implemented RESTful API services for generative AI models, building scalable backend infrastructure with FastAPI to handle concurrent inference requests and integrate ML capabilities across L'Oréal's product ecosystem.</li>
+              <li>Developed critical data preprocessing pipeline including image resizing, face swapping, background/foreground segmentation, and hair mask generation, contributing 2,500+ lines of peer-reviewed code (10% of codebase).</li>
+              <li>Built and deployed containerized ML services using Docker and GCP with automated CI/CD pipelines, ensuring reliable model serving at scale.</li>        
+            </ul>
+          </div>
+        </div>
+
+        <div className="experience-item">
+          <div className="experience-header">
+            <div className="experience-info">
+              <h3 className="job-title">Machine Learning Engineer Intern</h3>
+              <h4 className="company">AIP Labs</h4>
+              <p className="period">June 2024 - September 2024</p>
+            </div>
+            <img src="./assets/aip-labs-logo.svg" alt="AIP Labs Logo" className="company-logo" />
           </div>
           
           <div className="experience-body">
@@ -30,24 +71,6 @@ const Experience = () => {
                 Letter of Recommendation
               </a>
             </div>
-          </div>
-        </div>
-
-        <div className="experience-item">
-          <div className="experience-header">
-            <h3 className="job-title">Software Engineering Intern</h3>
-            <h4 className="company">L'Oréal</h4>
-            <p className="period">May 2025 - Present</p>
-          </div>
-          
-          <div className="experience-body">
-            <ul className="responsibilities">
-              <li>Model Deployment: Developed and deployed machine learning models for real-time image processing, enhancing user experience in beauty applications.</li>
-              <li>Pipeline Development: Built robust MLOps pipelines for automated model training, validation, and deployment, improving development efficiency by 40%.</li>
-              <li>Diffusion Models: Implemented a complete end-to-end ML pipeline utilizing state-of-the-art diffusion models for advanced image generation and manipulation tasks.</li>
-              <li>Cloud Infrastructure: Leveraged Docker, Kubernetes, and cloud platforms (AWS, GCP) for scalable model deployment and management in production environments.</li>
-              <li>Collaboration: Worked closely with cross-functional teams including product managers, UX designers, and backend engineers to integrate ML solutions seamlessly into production systems.</li>        
-            </ul>
           </div>
         </div>
       </div>

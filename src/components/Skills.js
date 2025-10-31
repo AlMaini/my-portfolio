@@ -4,21 +4,34 @@ import '../styles/Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Languages',
-      skills: ['Java', 'Python', 'C', 'C++', 'C#', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'SQL']
+      title: 'Programming Languages',
+      skills: ['Python', 'Java', 'C', 'C++', 'C#', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL']
     },
     {
-      title: 'Frameworks & Libraries',
-      skills: ['ReactJS', 'NextJS', 'NodeJS', 'PyTorch', 'PyTorch Lightning', 'Scikit-Learn', 
-              'OpenCV', 'PyTesseract', 'NumPy', 'Pandas', 'Matplotlib', 'JavaFX', 'TKinter', 'ResNet']
+      title: 'Machine Learning & AI',
+      skills: ['PyTorch', 'PyTorch Lightning', 'Scikit-Learn', 'Stable Diffusion', 'LoRA Adapters', 'ResNet', 
+              'Neural Networks', 'Deep Learning', 'Computer Vision', 'Image Classification', 'Generative AI', 
+              'Feature Extraction', 'Model Training', 'Data Preprocessing']
     },
     {
-      title: 'MLops & Cloud Technologies',
-      skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'ML Pipelines', 'Model Deployment', 'Diffusion Models', 'Feature Extraction']
+      title: 'Web Development & Frameworks',
+      skills: ['ReactJS', 'NextJS', 'NodeJS', 'FastAPI', 'RESTful APIs', 'Microservices', 'Full-Stack Development', 
+              'JavaFX', 'TKinter', 'Responsive Design', 'Frontend Development', 'Backend Development']
     },
     {
-      title: 'Tools & Technologies',
-      skills: ['Git', 'PostgreSQL', 'Prisma', 'REST API', 'Heroku', 'Linux', 'OpenAI API', 'Unity', 'Jira', 'Agile/Scrum']
+      title: 'Data Science & Analysis',
+      skills: ['NumPy', 'Pandas', 'Matplotlib', 'OpenCV', 'PyTesseract', 'Image Processing', 
+              'Data Analysis', 'Statistical Modeling', 'Data Visualization', 'OCR', 'Computer Vision']
+    },
+    {
+      title: 'Cloud & DevOps',
+      skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'CI/CD Pipelines', 'ML Pipelines', 
+              'Model Deployment', 'Container Orchestration', 'Cloud Computing', 'MLOps']
+    },
+    {
+      title: 'Databases & Tools',
+      skills: ['PostgreSQL', 'Prisma', 'Git', 'Heroku', 'Vercel', 'Linux', 'Unity', 
+              'Jira', 'Agile/Scrum', 'Version Control', 'Project Management']
     }
   ];
 

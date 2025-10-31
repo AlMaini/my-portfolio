@@ -5,11 +5,11 @@
 }
 
 .experience-container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
 }
 
 .experience-item {
@@ -28,6 +28,13 @@
   background-color: #4a89dc;
   padding: 2rem;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.experience-info {
+  flex: 1;
 }
 
 .job-title {
@@ -41,6 +48,17 @@
   margin: 0 0 0.5rem;
   font-weight: 500;
   opacity: 0.9;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: 1rem;
+  flex-shrink: 0;
 }
 
 .period {
@@ -68,10 +86,44 @@
   text-align: center;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #4a89dc;
+  border: 2px solid #4a89dc;
+}
+
+.secondary-btn:hover {
+  background-color: #4a89dc;
+  color: white;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .experience-header {
     padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .company-logo {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
   }
   
   .job-title {
