@@ -10,10 +10,10 @@ const Experience = () => {
       </div>
 
       <div className="experience-container">
-        {/* <div className="experience-item">
+        <div className="experience-item">
           <div className="experience-header">
             <div className="experience-info">
-              <h3 className="job-title">Quantitative Developer Intern</h3>
+              <h3 className="job-title">Data Engineering Intern</h3>
               <h4 className="company">Squarepoint Capital</h4>
               <p className="period">May 2026 - August 2026</p>
             </div>
@@ -22,10 +22,20 @@ const Experience = () => {
 
           <div className="experience-body">
             <ul className="responsibilities">
-             <li> Coming soon</li>
+              <li>
+                Working on the Data Engineering team within the Alpha Data
+                division, integrating raw market data into existing data
+                pipelines to support quantitative research and trading
+                strategies.
+              </li>
+              <li>
+                Collaborating directly with quantitative traders and researchers
+                to understand data requirements and deliver reliable, high-quality
+                data feeds that power alpha-generation workflows.
+              </li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
         <div className="experience-item">
           <div className="experience-header">
