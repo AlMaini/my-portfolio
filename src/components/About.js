@@ -22,7 +22,7 @@ const About = () => {
           <div className="about-cards">
             <div className="about-card">
               <h3>Experience</h3>
-              {/* <p>Quantitative Developer Intern at Squarepoint Capital (Upcoming)</p> */}
+              <p>Data Engineering Intern at Squarepoint Capital</p>
               <p>Software Engineering Intern at L'Oréal</p>
               <p>Machine Learning Engineer Intern at AIP Labs</p>
             </div>
@@ -47,11 +47,14 @@ const About = () => {
               I have a passion for software development, machine learning,
               quantitative finance, and problem-solving, which I've honed
               through various projects, coursework, and professional experience.
-              I've completed two significant internships: first as a Machine
-              Learning Engineer Intern at AIP Labs, where I gained hands-on
-              experience with cutting-edge AI technologies in medical imaging,
-              and more recently as a Software Engineering Intern at L'Oréal,
-              where I focused on deploying ML models for beauty applications.
+              I'm currently interning at Squarepoint Capital on the Data
+              Engineering team within Alpha Data, integrating raw market data
+              into existing pipelines and working closely with quantitative
+              traders and researchers. Previously, I interned as a Machine
+              Learning Engineer at AIP Labs, gaining hands-on experience with
+              cutting-edge AI technologies in medical imaging, and as a Software
+              Engineering Intern at L'Oréal, where I focused on deploying ML
+              models for beauty applications.
             </p>
 
             <p>
