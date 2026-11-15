@@ -61,7 +61,7 @@ This creates optimized files in the `build` folder ready for deployment.
 ## Contact
 
 For any inquiries, you can reach me at:
-- Email: abdullah.almaini@mail.utoronto.ca
+- Email: abdullahalmaini2017@gmail.com
 - LinkedIn: [Abdullah Al Maini](https://www.linkedin.com/in/abdullah-al-maini-680079250/)
 - GitHub: [AlMaini](https://github.com/AlMaini)
 

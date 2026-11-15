@@ -22,46 +22,49 @@ const About = () => {
           <div className="about-cards">
             <div className="about-card">
               <h3>Experience</h3>
-              {/* <p>Quantitative Developer Intern at Squarepoint Capital (Upcoming)</p> */}
-              <p>Software Engineering Intern at L'Oréal</p>
+              <p>Software Engineer Intern at Squarepoint Capital</p>
+              <p>Software Engineer Intern at ModiFace (L'Oréal)</p>
               <p>Machine Learning Engineer Intern at AIP Labs</p>
+              <p>Machine Learning Researcher at Algoverse</p>
             </div>
 
             <div className="about-card">
               <h3>Education</h3>
-              <p>B.Sc. Computer Science, Mathematics, and Statistics</p>
+              <p>Honours B.Sc. Computer Science, Mathematics, and Statistics (PEY Co-op)</p>
               <p>University of Toronto</p>
+              <p>Expected December 2027</p>
             </div>
           </div>
 
           <div className="about-text">
             <p>
-              Hello, I'm Abdullah Al Maini, a third-year Computer Science
-              student currently residing in Toronto, Ontario. I'm pursuing my
-              Honours Bachelor of Science degree with a specialization in
+              Hello, I'm Abdullah Al Maini, a Computer Science student based in
+              Toronto, Ontario. I'm pursuing an Honours Bachelor of Science in
               Computer Science, Mathematics, and Statistics at the University of
-              Toronto, with expected graduation in May 2027.
+              Toronto through the PEY Co-op program, with expected graduation in
+              December 2027.
             </p>
 
             <p>
-              I have a passion for software development, machine learning,
-              quantitative finance, and problem-solving, which I've honed
-              through various projects, coursework, and professional experience.
-              I've completed two significant internships: first as a Machine
-              Learning Engineer Intern at AIP Labs, where I gained hands-on
-              experience with cutting-edge AI technologies in medical imaging,
-              and more recently as a Software Engineering Intern at L'Oréal,
-              where I focused on deploying ML models for beauty applications.
+              I'm passionate about software engineering, machine learning,
+              quantitative finance, and problem-solving. Most recently, I was a
+              Software Engineer Intern on the Alpha Data team at Squarepoint
+              Capital, where I built data pipelines and a data observability
+              platform used by quant researchers and traders worldwide. Before
+              that, I was an MLOps Software Engineer Intern at ModiFace
+              (L'Oréal), where I cut inference latency in a production Stable
+              Diffusion virtual try-on pipeline by ~40%, and a Machine Learning
+              Engineer Intern at AIP Labs, where I built medical image
+              classifiers. I've also done research through Algoverse, fine-tuning
+              vision-language models with reinforcement learning.
             </p>
 
             <p>
-              With a strong foundation in languages like Java, Python, C, C++,
-              C#, HTML, CSS, JavaScript, and TypeScript, coupled with extensive
-              experience in machine learning frameworks and MLops tools, I'm
-              continuously expanding my skill set. My experience spans from
-              developing end-to-end ML pipelines and diffusion models to
-              creating full-stack web applications and implementing cloud-based
-              deployment solutions.
+              I work mostly in Python, C++, C, Java, TypeScript/JavaScript, and
+              SQL. My experience spans large-scale ETL pipelines and backend
+              services, model fine-tuning and inference optimization, and
+              full-stack web applications, all the way through to containerized
+              deployment and CI/CD.
             </p>
 
             <p>

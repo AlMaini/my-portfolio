@@ -5,33 +5,32 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['Python', 'Java', 'C', 'C++', 'C#', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL']
+      skills: ['Python', 'C++', 'C', 'Java', 'TypeScript', 'JavaScript', 'SQL', 'GLSL', 'HTML', 'CSS']
     },
     {
       title: 'Machine Learning & AI',
-      skills: ['PyTorch', 'PyTorch Lightning', 'Scikit-Learn', 'Stable Diffusion', 'LoRA Adapters', 'ResNet', 
-              'Neural Networks', 'Deep Learning', 'Computer Vision', 'Image Classification', 'Generative AI', 
-              'Feature Extraction', 'Model Training', 'Data Preprocessing']
+      skills: ['PyTorch', 'PyTorch Lightning', 'Scikit-Learn', 'Stable Diffusion', 'LoRA Fine-Tuning', 'GRPO',
+              'Quantization', 'Vision-Language Models', 'RAG', 'Embeddings', 'ResNet', 'Computer Vision',
+              'Generative AI', 'Inference Optimization']
     },
     {
-      title: 'Web Development & Frameworks',
-      skills: ['ReactJS', 'NextJS', 'NodeJS', 'FastAPI', 'RESTful APIs', 'Microservices', 'Full-Stack Development', 
-              'JavaFX', 'TKinter', 'Responsive Design', 'Frontend Development', 'Backend Development']
+      title: 'Data Engineering',
+      skills: ['ETL/ELT Pipelines', 'PostgreSQL', 'pgvector', 'Redis', 'Apache Arrow', 'Parquet',
+              'Data Observability', 'NumPy', 'Pandas', 'Matplotlib', 'OpenCV']
     },
     {
-      title: 'Data Science & Analysis',
-      skills: ['NumPy', 'Pandas', 'Matplotlib', 'OpenCV', 'PyTesseract', 'Image Processing', 
-              'Data Analysis', 'Statistical Modeling', 'Data Visualization', 'OCR', 'Computer Vision']
+      title: 'Backend & Web Development',
+      skills: ['FastAPI', 'REST APIs', 'Server-Sent Events', 'Microservices', 'Node.js', 'React', 'Next.js',
+              'Progressive Web Apps', 'Prisma']
     },
     {
-      title: 'Cloud & DevOps',
-      skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'CI/CD Pipelines', 'ML Pipelines', 
-              'Model Deployment', 'Container Orchestration', 'Cloud Computing', 'MLOps']
+      title: 'Infrastructure & DevOps',
+      skills: ['Docker', 'Nomad', 'Consul', 'GitLab CI/CD', 'GCP (Cloud Run, GCS, BigQuery)', 'Linux', 'Git',
+              'MLOps', 'Model Deployment']
     },
     {
-      title: 'Databases & Tools',
-      skills: ['PostgreSQL', 'Prisma', 'Git', 'Heroku', 'Vercel', 'Linux', 'Unity', 
-              'Jira', 'Agile/Scrum', 'Version Control', 'Project Management']
+      title: 'Graphics & Tools',
+      skills: ['raylib', 'Shaders', 'Game Engine Development', 'Jira', 'Agile/Scrum', 'Vercel']
     }
   ];
 

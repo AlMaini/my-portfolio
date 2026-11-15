@@ -5,6 +5,33 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      title: 'Clair — Multi-Agent AI Note-Taking App',
+      period: 'February 2026',
+      description: 'A note-taking progressive web app with three cooperating AI agents (Organizer, Researcher, and Search) running on a FastAPI backend with pgvector embedding search, so notes are organized automatically and searchable by meaning. Built and pitched at a hackathon.',
+      technologies: ['React PWA', 'FastAPI', 'PostgreSQL', 'pgvector', 'Redis', 'AI Agents'],
+      links: {
+        github: 'https://github.com/AlMaini/clair'
+      }
+    },
+    {
+      title: 'Card Game Engine',
+      period: 'June 2026',
+      description: 'A 2D card game engine built from scratch in C++, featuring a custom GLSL outline shader and a centralized resource manager that eliminates redundant GPU texture loads.',
+      technologies: ['C++', 'raylib', 'GLSL', 'Game Development'],
+      links: {
+        github: 'https://github.com/AlMaini/apex-game'
+      }
+    },
+    {
+      title: 'AI Scheduling Assistant',
+      period: 'January 2025 - April 2025',
+      description: 'Led a team of 7 building an LLM-powered academic scheduling app. Owned the system design across a Next.js frontend, Node.js services, PostgreSQL persistence, and Redis caching, and ran agile sprints with Jira.',
+      technologies: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'Redis', 'Claude API', 'Docker'],
+      links: {
+        github: 'https://github.com/namethatidesire/abacus'
+      }
+    },
+    {
       title: 'C++ Neural Network',
       period: 'May 2025',
       description: 'A C++ implementation of a neural network with backpropagation, designed to classify clothing items from the FashionMNIST dataset. The project includes no third-party libraries, showcasing my understanding of neural networks and C++ programming.',
@@ -20,18 +47,8 @@ const Projects = () => {
       description: 'A meal-planning app built for lazy people to explore new foods easily, built using NextJS and deployed on Vercel (WIP)',
       technologies: ['ReactJS', 'NextJS', 'NodeJS', 'PostgreSQL', 'Prisma'],
       links: {
-        demo: 'https://github.com/AlMaini/chop-chop',
+        demo: 'https://chop-chop-tan.vercel.app',
         github: 'https://github.com/AlMaini/chop-chop'
-      }
-    },
-    {
-      title: 'Academic Planner Full Stack Web Application',
-      period: 'January 2025 - April 2025',
-      description: 'Managed and collaborated with a team of 7 using Jira for agile project management, building an intuitive and aesthetic frontend using ReactJS and NextJS. Designed and implemented scalable microservices architecture for academic planning features.',
-      technologies: ['ReactJS', 'NextJS', 'NodeJS', 'Docker', 'PostgreSQL', 'Prisma'],
-      links: {
-        demo: 'https://github.com/namethatidesire/abacus',
-        github: 'https://github.com/namethatidesire/abacus'
       }
     },
     {
@@ -40,8 +57,8 @@ const Projects = () => {
       description: 'Automated text extraction from over 1,000 images with 90% accuracy using OpenCV and PyTesseract. Integrated LLMs for error correction and implemented regex for data extraction, leading to a 30% increase in text detection accuracy.',
       technologies: ['Python', 'OpenCV', 'PyTesseract', 'Machine Learning', 'Regular Expressions'],
       links: {
-        demo: 'https://github.com/AlMaini/split-the-bill-project',
-        github: 'https://github.com/AlMaini/split-the-bill-project'
+        demo: 'https://github.com/AlMaini/receipt-ocr-llm-project',
+        github: 'https://github.com/AlMaini/receipt-ocr-llm-project'
       }
     },
     {
@@ -97,9 +114,11 @@ const Projects = () => {
             </div>
             
             <div className="project-links">
-              <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="project-link demo">
-                <FaExternalLinkAlt /> Demo
-              </a>
+              {project.links.demo && (
+                <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="project-link demo">
+                  <FaExternalLinkAlt /> Demo
+                </a>
+              )}
               <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="project-link github">
                 <FaGithub /> GitHub
               </a>
